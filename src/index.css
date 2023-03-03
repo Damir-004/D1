@@ -1,0 +1,16 @@
+*,
+::before,
+::after{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+:root {
+  --color-background: rgb(230, 230, 230);
+  --color-font: black;
+}
+
+html[data-theme="dark"] {
+  --color-background: black;
+  --color-font: white;
+}

@@ -1,0 +1,20 @@
+.wrapper {
+  background-color: var(--color-background);
+  width: 50%;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 15px;
+  margin: 50px auto;
+}
+.text {
+  color: var(--color-font);
+  font-size: 20px;
+  margin: 14px 0;
+}
+button{
+  padding:5px 15px;
+}
